@@ -1,0 +1,23 @@
+
+
+        /* Declare second integer, double, and String variables. */
+        int sI=scan.nextInt();
+        double sD=scan.nextDouble();
+        String z=scan.nextLine();
+        String t=scan.nextLine();
+
+        String arr[]=t.split(" ");
+
+
+     
+            System.out.println(i+sI);
+        /* Print the sum of both integer variables on a new line. */
+            System.out.println(d+sD);
+        /* Print the sum of the double variables on a new line. */
+        for(String q:arr){
+            s=s+q+" ";
+        }
+        System.out.println(s);
+        /* Concatenate and print the String variables on a new line; 
+        	the 's' variable above should be printed first. */
+
